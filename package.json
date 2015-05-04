@@ -1,0 +1,43 @@
+{
+  "name": "slang-js",
+  "version": "0.0.1",
+  "description": "Curl files to JCR using Sling",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Ben Westrate",
+      "email": "ben.westrate@gmail.com",
+      "url": "http://github.com/benwestrate"
+    },
+    {
+      "name": "Mike Nelson",
+      "email": "mike@mnelsonmedia.com",
+      "url": "http://github.com/mnlsn"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benwestrate/slang-js.git"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "JCR",
+    "Sling",
+    "Adobe",
+    "AEM",
+    "CQ"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "gulp": "^3.8.8",
+    "gulp-util": "^3.0.1",
+    "q": "^1.1.2",
+    "request": "^2.51.0",
+    "through2": "^0.6.1"
+  }
+}
