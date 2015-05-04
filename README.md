@@ -1,4 +1,4 @@
-gulp-slang
+node-slang
 ==============
 
 Curl files to running JCR
@@ -14,7 +14,7 @@ Curl files to running JCR
     var slang = require('gulp-slang');
 
     slang( { path : "path/to/your/file" } , { port : 4502 } );
-    
+
 ```
 
 ## Options
