@@ -1,5 +1,5 @@
 {
-  "name": "slang-js",
+  "name": "node-slang",
   "version": "0.0.1",
   "description": "Curl files to JCR using Sling",
   "license": "MIT",

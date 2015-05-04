@@ -6,23 +6,15 @@ Curl files to running JCR
 ## Install
 
 ```shell
-    npm install gulp-slang --save-dev
+    npm install node-slang --save-dev
 ```
 
 ## Example
 ```js
-    var gulp = require('gulp');
     var slang = require('gulp-slang');
 
-    gulp.task('watch', function() {
-        gulp.watch('js/*.js', function(e) {
-            var path = e.path;
-            return gulp.src(path)
-                .pipe(slang(path, {
-                    port: 4503
-                }));
-        });
-    });
+    slang( { path : "path/to/your/file" } , { port : 4502 } );
+    
 ```
 
 ## Options
