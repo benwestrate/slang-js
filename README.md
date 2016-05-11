@@ -11,7 +11,7 @@ Curl files to running JCR
 
 ## Example
 ```js
-    var slang = require('gulp-slang');
+    var slang = require('node-slang');
 
     slang( { path : "path/to/your/file" } , { port : 4502 } );
 
