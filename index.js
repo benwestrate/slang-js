@@ -80,7 +80,7 @@ function slang(file, opt) {
 
     };
 
-    var r = request( options , optionalCallback ).auth("admin","admin");
+    var r = request( options , optionalCallback ).auth(USER,PASS);
 
     var form = r.form();
 
